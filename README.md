@@ -21,6 +21,7 @@ The `Dockerfile` only adds `railway-start.sh`, which derives the settings Railwa
 | `NEXT_PUBLIC_WEBAPP_URL` | `https://${{RAILWAY_PUBLIC_DOMAIN}}` | Public URL. Change it if you add a custom domain |
 | `NEXTAUTH_SECRET` | generated | Session cookie secret |
 | `CALENDSO_ENCRYPTION_KEY` | generated, 32 characters | Encrypts stored app credentials. Don't change it after first use |
+| `PORT` | `3000` | Cal.com always listens on 3000 (the image starts Next.js through turbo, which drops `PORT`). Railway's health check and domain use this value, so leave it at 3000 |
 
 Optional, set them on the Cal.com service when you need them:
 
