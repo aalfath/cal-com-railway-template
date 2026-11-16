@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/calcom-2?utm_medium=integration&utm_source=button&utm_campaign=cal-com)
+
 # Cal.com on Railway
 
 Railway template wrapper for [Cal.com](https://github.com/calcom/cal.com), the open-source scheduling platform (a self-hosted Calendly alternative).
